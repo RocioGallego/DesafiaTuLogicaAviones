@@ -8,23 +8,23 @@ public class Gestion {
     
         Scanner scanner = new Scanner(System.in);
 	
-        Piloto piloto1= new Piloto (123,"Peter Maverick", 10000, "capitán" );
-	Piloto piloto2= new Piloto (234, "Natasha Phoenix",3000, "teniente");
-	Piloto piloto3= new Piloto (345, "Bradley Rooster", 3500, "teniente");
+        Piloto piloto1 = new Piloto (123,"Peter Maverick", 10000, "capitán" );
+	Piloto piloto2 = new Piloto (234, "Natasha Phoenix",3000, "teniente");
+	Piloto piloto3 = new Piloto (345, "Bradley Rooster", 3500, "teniente");
 		
       //Pilotos 4 y 5 introducidos por el usuario//
 		
 	System.out.println("Introduce los datos del piloto 4:");
 	System.out.println("id: ");
-	int idPiloto4=scanner.nextInt();
+	int idPiloto4 = scanner.nextInt();
 	scanner.nextLine(); //Para consumir la nueva línea pendiente//
 	System.out.println("Nombre completo: ");
-	String nomPiloto4=scanner.nextLine();
+	String nomPiloto4 = scanner.nextLine();
 	System.out.println("Horas de vuelo: ");
-	int horasVueloPiloto4=scanner.nextInt();
+	int horasVueloPiloto4 = scanner.nextInt();
 	scanner.nextLine();
 	System.out.println ("Rango del piloto: ");
-	String rangoPiloto4=scanner.nextLine();
+	String rangoPiloto4 = scanner.nextLine();
 		
 	Piloto piloto4 = new Piloto (idPiloto4,nomPiloto4,horasVueloPiloto4,rangoPiloto4);
 		
@@ -33,15 +33,15 @@ public class Gestion {
 	
 	System.out.println("Introduce los datos del piloto 5:");
 	System.out.println("id: ");
-	int idPiloto5=scanner.nextInt();
+	int idPiloto5 = scanner.nextInt();
 	scanner.nextLine(); //Para consumir la nueva línea pendiente//
 	System.out.println("Nombre completo: ");
-	String nomPiloto5=scanner.nextLine();
+	String nomPiloto5 = scanner.nextLine();
 	System.out.println("Horas de vuelo: ");
-	int horasVueloPiloto5=scanner.nextInt();
+	int horasVueloPiloto5 = scanner.nextInt();
 	scanner.nextLine();
 	System.out.println ("Rango del piloto: ");
-	String rangoPiloto5=scanner.nextLine();
+	String rangoPiloto5 = scanner.nextLine();
 		
 	Piloto piloto5 = new Piloto (idPiloto5,nomPiloto5,horasVueloPiloto5,rangoPiloto5);
 		
@@ -71,16 +71,16 @@ public class Gestion {
 	int idAvionEntrenamiento2 = scanner.nextInt();
 	scanner.nextLine();
 	System.out.println("Modelo:");
-	String modAvionEntrenamiento2= scanner.nextLine();
+	String modAvionEntrenamiento2 = scanner.nextLine();
 	System.out.println("Capacidad: ");
-	int capAvionEntrenamiento2= scanner.nextInt();
+	int capAvionEntrenamiento2 = scanner.nextInt();
 	scanner.nextLine();
 	System.out.println("Elija el piloto por su número:1,2,3,4 o 5");
-	int numPilotoElegido= scanner.nextInt();
+	int numPilotoElegido = scanner.nextInt();
 	scanner.nextLine();
 	System.out.println("¿Tiene doble mando?");
-	String tieneMandoAvion2=scanner.nextLine();
-	boolean tieneDobleMandoAvion2= tieneMandoAvion2.equalsIgnoreCase("si")?true:false;
+	String tieneMandoAvion2 = scanner.nextLine();
+	boolean tieneDobleMandoAvion2 = tieneMandoAvion2.equalsIgnoreCase("si")?true:false;
 	    
 	Piloto pilotoElegido = null;
 	   switch(numPilotoElegido) {
@@ -113,10 +113,10 @@ public class Gestion {
 	 System.out.println("Modelo:");
 	 String modAvionEntrenamiento3 = scanner.nextLine();
 	 System.out.println("Capacidad: ");
-	 int capAvionEntrenamiento3= scanner.nextInt();
+	 int capAvionEntrenamiento3 = scanner.nextInt();
 	 scanner.nextLine();
 	 System.out.println("Elija el piloto por su número:1,2,3,4 o 5");
-	 int numPilotoElegido2= scanner.nextInt();
+	 int numPilotoElegido2 = scanner.nextInt();
 	 scanner.nextLine();
 	 Piloto pilotoElegido2 = null;
 	     switch(numPilotoElegido2) {
